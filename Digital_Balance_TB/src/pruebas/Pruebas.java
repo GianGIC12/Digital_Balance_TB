@@ -25,6 +25,16 @@ public class Pruebas {
         
         c.completarAvisos();
         
+        c.recorrerAvisos();
+        
+        c.recorrerRepetidos();
+        
+        System.out.println("eliminadondo");
+        c.eliminarRepetidos();
+        System.out.println("recoriendo nuevos");
+        c.recorrerAvisos();
+        
+        
         
         
     }
