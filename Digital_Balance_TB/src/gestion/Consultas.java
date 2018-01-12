@@ -36,7 +36,7 @@ public class Consultas {
         objCon.conectar();
 
         sql = "select id,idCategoria,destaque,idPais,created_at,idRepub from db_todobusco_prod.mod_aviso_aviso"
-                + "  limit 100";
+                + "  limit 10000";
 
         PreparedStatement stm = objCon.getCon().prepareStatement(sql);
 
@@ -72,15 +72,15 @@ public class Consultas {
 
             } else if (destaqueSQL == 2) {
 
-                portal = "Destaque Plata";
+                destaque = "Destaque Plata";
 
             } else if (destaqueSQL == 3) {
 
-                portal = "Destaque Oro";
+                destaque = "Destaque Oro";
 
             } else if (destaqueSQL == 6) {
 
-                portal = "Destaque Membresia";
+                destaque = "Destaque Membresia";
 
             }
 
@@ -193,5 +193,31 @@ public class Consultas {
         }
 
     }
+
+    public List<AvisoBean> getAvisos() {
+        return avisos;
+    }
+
+    public void setAvisos(List<AvisoBean> avisos) {
+        this.avisos = avisos;
+    }
+
+    public List<Integer> getRepetidos() {
+        return repetidos;
+    }
+
+    public void setRepetidos(List<Integer> repetidos) {
+        this.repetidos = repetidos;
+    }
+
+    public String getSql() {
+        return sql;
+    }
+
+    public void setSql(String sql) {
+        this.sql = sql;
+    }
+    
+
 
 }
