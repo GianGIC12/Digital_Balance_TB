@@ -453,6 +453,358 @@ public class Consultas {
                     subCategoria = "Hospedajes";
                     break;
 
+                case 101:
+                    subCategoria = "Restaurantes";
+                    break;
+
+                case 102:
+                    subCategoria = "Bares y Discotecas";
+                    break;
+                case 103:
+                    subCategoria = "Varios";
+                    break;
+                case 104:
+                    subCategoria = "Coches";
+                    break;
+                case 105:
+                    subCategoria = "Juguetes";
+                    break;
+                case 106:
+                    subCategoria = "Otro";
+                    break;
+                case 107:
+                    subCategoria = "Bodegas";
+                    break;
+                case 108:
+                    subCategoria = "Articulos de Temporada";
+                    break;
+                case 109:
+                    subCategoria = "Venta de Garage";
+                    break;
+                case 110:
+                    subCategoria = "Vestimenta";
+                    break;
+
+                case 111:
+                    subCategoria = "Otros Articulos Varios";
+                    break;
+
+                case 112:
+                    subCategoria = "Masajes terapeuticos";
+                    break;
+                case 113:
+                    subCategoria = "Medicina Alternativa";
+                    break;
+                case 114:
+                    subCategoria = "Otros belleza y Estetica";
+                    break;
+                case 115:
+                    subCategoria = "Prestamos e Hipotecas";
+                    break;
+                case 116:
+                    subCategoria = "Otros Negocios";
+                    break;
+                case 117:
+                    subCategoria = "Decoracion y Acabados";
+                    break;
+                case 118:
+                    subCategoria = "Express (a domicilio)";
+                    break;
+                case 119:
+                    subCategoria = "Otros Talleres y Servicios";
+                    break;
+                case 120:
+                    subCategoria = "Profesionales Independientes";
+                    break;
+
+                case 121:
+                    subCategoria = "Servicios de Construccion";
+                    break;
+
+                case 122:
+                    subCategoria = "Reparacion y Mantenimiento";
+                    break;
+                case 123:
+                    subCategoria = "Televisores y Consolas";
+                    break;
+                case 124:
+                    subCategoria = "Telecomunicaciones";
+                    break;
+                case 125:
+                    subCategoria = "Otros Tecnologia";
+                    break;
+                case 126:
+                    subCategoria = "Otros Extraviados y Robados";
+                    break;
+                case 127:
+                    subCategoria = "Medicos";
+                    break;
+                case 128:
+                    subCategoria = "Clinicas";
+                    break;
+                case 129:
+                    subCategoria = "Hospitales";
+                    break;
+                case 130:
+                    subCategoria = "Farmacias";
+                    break;
+
+                case 131:
+                    subCategoria = "Servicios de Salud";
+                    break;
+
+                case 132:
+                    subCategoria = "Ambulancias";
+                    break;
+                case 133:
+                    subCategoria = "Servicios de Enefermeria";
+                    break;
+                case 134:
+                    subCategoria = "Dentistas";
+                    break;
+                case 135:
+                    subCategoria = "Fisioteraputas";
+                    break;
+                case 136:
+                    subCategoria = "Clinicas Esteticas";
+                    break;
+                case 137:
+                    subCategoria = "Otros Servicios Medicos";
+                    break;
+                case 138:
+                    subCategoria = "Albañil";
+                    break;
+                case 139:
+                    subCategoria = "Ama de Llaves";
+                    break;
+                case 140:
+                    subCategoria = "Chofer";
+                    break;
+
+                case 141:
+                    subCategoria = "Costurera";
+                    break;
+
+                case 142:
+                    subCategoria = "Dealer";
+                    break;
+                case 143:
+                    subCategoria = "Digitador";
+                    break;
+                case 144:
+                    subCategoria = "Electricista";
+                    break;
+                case 145:
+                    subCategoria = "Guia de Turismo";
+                    break;
+                case 146:
+                    subCategoria = "Jardinero";
+                    break;
+                case 147:
+                    subCategoria = "Joyero";
+                    break;
+                case 148:
+                    subCategoria = "Mecanico";
+                    break;
+                case 149:
+                    subCategoria = "Motorizado";
+                    break;
+                case 150:
+                    subCategoria = "Niñera";
+                    break;
+
+                case 151:
+                    subCategoria = "Pintor";
+                    break;
+
+                case 152:
+                    subCategoria = "Recepcionista";
+                    break;
+                case 153:
+                    subCategoria = "Secretaria";
+                    break;
+                case 154:
+                    subCategoria = "Tecnico Electronico";
+                    break;
+                case 155:
+                    subCategoria = "Vigilante";
+                    break;
+                case 156:
+                    subCategoria = "Voluntarios";
+                    break;
+                case 157:
+                    subCategoria = "Bodas en General";
+                    break;
+                case 158:
+                    subCategoria = "Analista";
+                    break;
+                case 159:
+                    subCategoria = "Animador";
+                    break;
+                case 160:
+                    subCategoria = "Agente Call Center";
+                    break;
+
+                case 161:
+                    subCategoria = "Ayudante";
+                    break;
+
+                case 162:
+                    subCategoria = "Bar Tender";
+                    break;
+                case 163:
+                    subCategoria = "Cocinero";
+                    break;
+                case 164:
+                    subCategoria = "Contabilidad";
+                    break;
+                case 165:
+                    subCategoria = "Domestica";
+                    break;
+                case 166:
+                    subCategoria = "Mensajero";
+                    break;
+                case 167:
+                    subCategoria = "Oficial de Seguridad";
+                    break;
+                case 168:
+                    subCategoria = "Recepcionista";
+                    break;
+                case 169:
+                    subCategoria = "Salonero";
+                    break;
+                case 170:
+                    subCategoria = "Secretaria";
+                    break;
+
+                case 171:
+                    subCategoria = "Sobrecargo";
+                    break;
+
+                case 172:
+                    subCategoria = "Personal Comidas Rapidas";
+                    break;
+                case 173:
+                    subCategoria = "Vendedor";
+                    break;
+                case 174:
+                    subCategoria = "Vigilante";
+                    break;
+                case 175:
+                    subCategoria = "Camionetas y Pick UP";
+                    break;
+                case 176:
+                    subCategoria = "Otros";
+                    break;
+                case 177:
+                    subCategoria = "Bovedas";
+                    break;
+                case 178:
+                    subCategoria = "Condominios";
+                    break;
+                case 179:
+                    subCategoria = "Quintas";
+                    break;
+                case 180:
+                    subCategoria = "Habitaciones";
+                    break;
+
+                case 181:
+                    subCategoria = "tecnico";
+                    break;
+
+                case 182:
+                    subCategoria = "Presupuestista";
+                    break;
+                case 183:
+                    subCategoria = "Chofer";
+                    break;
+                case 184:
+                    subCategoria = "Cajero";
+                    break;
+                case 185:
+                    subCategoria = "Agente";
+                    break;
+                case 186:
+                    subCategoria = "Dentista";
+                    break;
+                case 187:
+                    subCategoria = "Arquitecto";
+                    break;
+                case 188:
+                    subCategoria = "Personal";
+                    break;
+                case 189:
+                    subCategoria = "Abogado";
+                    break;
+                case 190:
+                    subCategoria = "Asistente";
+                    break;
+
+                case 191:
+                    subCategoria = "Enfermero";
+                    break;
+
+                case 192:
+                    subCategoria = "Auxiliar";
+                    break;
+                case 193:
+                    subCategoria = "Ingeniero";
+                    break;
+                case 194:
+                    subCategoria = "Gerente";
+                    break;
+                case 195:
+                    subCategoria = "Masajista";
+                    break;
+                case 196:
+                    subCategoria = "Albañil";
+                    break;
+                case 197:
+                    subCategoria = "Ama de LLaves";
+                    break;
+                case 198:
+                    subCategoria = "Costurera";
+                    break;
+                case 199:
+                    subCategoria = "Dealer";
+                    break;
+                case 200:
+                    subCategoria = "Digitador";
+                    break;
+
+                case 201:
+                    subCategoria = "Electricista";
+                    break;
+
+                case 202:
+                    subCategoria = "Guia de Turismo";
+                    break;
+                case 203:
+                    subCategoria = "Jardinero";
+                    break;
+                case 204:
+                    subCategoria = "Joyero";
+                    break;
+                case 205:
+                    subCategoria = "Mecanico";
+                    break;
+                case 206:
+                    subCategoria = "Motorizado";
+                    break;
+                case 207:
+                    subCategoria = "Niñera";
+                    break;
+                case 208:
+                    subCategoria = "Pintor";
+                    break;
+                case 209:
+                    subCategoria = "Tecnico Electronico";
+                    break;
+                case 210:
+                    subCategoria = "Voluntarios";
+                    break;
+
                 default:
                     subCategoria = "No Definido";
                     break;
