@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package beans;
 
 /**
@@ -11,9 +10,9 @@ package beans;
  * @author user
  */
 public class AvisoBean {
-    
-    int id_Aviso,id_fecha;
-    String portal,destaque,pais,fecha_publicacion,categoria,subCategoria;
+
+    int id_Aviso, id_fecha;
+    String portal, destaque, pais, fecha_publicacion, categoria, subCategoria;
 
     public AvisoBean(int id_Aviso, int id_fecha, String portal, String destaque, String pais, String fecha_publicacion) {
         this.id_Aviso = id_Aviso;
@@ -90,9 +89,5 @@ public class AvisoBean {
     public void setSubCategoria(String subCategoria) {
         this.subCategoria = subCategoria;
     }
-    
-  
-    
-    
-    
+
 }

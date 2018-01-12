@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package pruebas;
 
 import archivos.ExportarCSV;
@@ -22,25 +21,24 @@ public class Pruebas {
      */
     public static void main(String[] args) throws SQLException, IOException {
         // TODO code application logic here
-        
-        Consultas c= new Consultas();
-        
+
+        Consultas c = new Consultas();
+
         c.completarAvisos();
-        
+
         c.recorrerAvisos();
-        
+
         c.recorrerRepetidos();
-        
+
         System.out.println("eliminadondo");
         c.eliminarRepetidos();
         System.out.println("recoriendo nuevos");
         c.recorrerAvisos();
-        
-        ExportarCSV e= new ExportarCSV();
-        
+
+        ExportarCSV e = new ExportarCSV();
+
         e.exportarResultados(c.getAvisos());
-        
-        
+
     }
-    
+
 }

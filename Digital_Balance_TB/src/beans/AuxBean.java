@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package beans;
 
 /**
@@ -11,7 +10,7 @@ package beans;
  * @author user
  */
 public class AuxBean {
-    
+
     int idRep;
 
     public AuxBean() {
@@ -28,8 +27,5 @@ public class AuxBean {
     public void setIdRep(int idRep) {
         this.idRep = idRep;
     }
-    
-    
-    
-    
+
 }
