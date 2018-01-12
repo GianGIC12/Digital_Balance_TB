@@ -13,7 +13,7 @@ package beans;
 public class AvisoBean {
     
     int id_Aviso,id_fecha;
-    String portal,destaque,pais,fecha_publicacion;
+    String portal,destaque,pais,fecha_publicacion,categoria,subCategoria;
 
     public AvisoBean(int id_Aviso, int id_fecha, String portal, String destaque, String pais, String fecha_publicacion) {
         this.id_Aviso = id_Aviso;
@@ -73,6 +73,22 @@ public class AvisoBean {
 
     public void setFecha_publicacion(String fecha_publicacion) {
         this.fecha_publicacion = fecha_publicacion;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public String getSubCategoria() {
+        return subCategoria;
+    }
+
+    public void setSubCategoria(String subCategoria) {
+        this.subCategoria = subCategoria;
     }
     
   
