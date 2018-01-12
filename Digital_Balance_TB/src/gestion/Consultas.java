@@ -139,7 +139,8 @@ public class Consultas {
 
             }
 
-            switch (idSubCategoria) {
+         
+               switch (idSubCategoria) {
 
                 case 1:
                     subCategoria = "Apartamentos";
@@ -382,7 +383,7 @@ public class Consultas {
                     subCategoria = "Inversiones";
                     break;
                 case 78:
-                    subCategoria = "Oportunidades de Pequeña Empresa";
+                    subCategoria = "Oportunidades de Pequenia Empresa";
                     break;
                 case 79:
                     subCategoria = "Productos Mayoristas";
@@ -572,7 +573,7 @@ public class Consultas {
                     subCategoria = "Otros Servicios Medicos";
                     break;
                 case 138:
-                    subCategoria = "Albañil";
+                    subCategoria = "Albaniil";
                     break;
                 case 139:
                     subCategoria = "Ama de Llaves";
@@ -610,7 +611,7 @@ public class Consultas {
                     subCategoria = "Motorizado";
                     break;
                 case 150:
-                    subCategoria = "Niñera";
+                    subCategoria = "Niniera";
                     break;
 
                 case 151:
@@ -758,7 +759,7 @@ public class Consultas {
                     subCategoria = "Masajista";
                     break;
                 case 196:
-                    subCategoria = "Albañil";
+                    subCategoria = "Albaniil";
                     break;
                 case 197:
                     subCategoria = "Ama de LLaves";
@@ -793,7 +794,7 @@ public class Consultas {
                     subCategoria = "Motorizado";
                     break;
                 case 207:
-                    subCategoria = "Niñera";
+                    subCategoria = "Niniera";
                     break;
                 case 208:
                     subCategoria = "Pintor";
@@ -810,6 +811,8 @@ public class Consultas {
                     break;
 
             }
+            
+            
 
             if (idCategoria == 1) {
 
