@@ -68,11 +68,10 @@ public class ExportarCSV {
         csvOutput.close();
 
     }
-    
-    
-   public void exportarContactabilidad(List<ContactabilidadBean> contactos) throws IOException{
-       
-     String outputFile = "C:/Users/user/Google Drive/Digital_Balance_TB/bd_Contactabilidad_formularios.csv";
+
+    public void exportarContactabilidad(List<ContactabilidadBean> contactos) throws IOException {
+
+        String outputFile = "C:/Users/user/Google Drive/Digital_Balance_TB/bd_Contactabilidad_formularios.csv";
 
         boolean alreadyExists = new File(outputFile).exists();
 
@@ -82,8 +81,8 @@ public class ExportarCSV {
         }
 
         CsvWriter csvOutput = new CsvWriter(new FileWriter(outputFile, true), ';');
-       
-       csvOutput.write("id_contactabilidad");
+
+        csvOutput.write("id_contactabilidad");
         csvOutput.write("id_aviso");
         csvOutput.write("id_fecha");
         csvOutput.write("nombreContacto");
@@ -95,35 +94,30 @@ public class ExportarCSV {
         csvOutput.write("subCategoria");
         csvOutput.write("pais");
         csvOutput.write("destaque");
-        
-       
-       csvOutput.endRecord();
-       
-       
-       for (ContactabilidadBean contacto: contactos) {
-           
-            csvOutput.write(contacto.getId_contacto() + "");
-                csvOutput.write(contacto.getId_Aviso() + "");
-                csvOutput.write(contacto.getId_Fecha() + "");
-                csvOutput.write(contacto.getNombreContacto());
-                csvOutput.write(contacto.getEmailContacto());
-                csvOutput.write(contacto.getCelular());
-                csvOutput.write(contacto.getFecha_contacto());
-                csvOutput.write(contacto.getPortal());
-                csvOutput.write(contacto.getCategoria());
-                csvOutput.write(contacto.getSubCategoria());
-                csvOutput.write(contacto.getPais());
-                csvOutput.write(contacto.getDestaque());
 
-                csvOutput.endRecord();
-           
-           
-       }
-       
-  
-       
-      csvOutput.close();  
-       
-   }
-    
+        csvOutput.endRecord();
+
+        for (ContactabilidadBean contacto : contactos) {
+
+            csvOutput.write(contacto.getId_contacto() + "");
+            csvOutput.write(contacto.getId_Aviso() + "");
+            csvOutput.write(contacto.getId_Fecha() + "");
+            csvOutput.write(contacto.getNombreContacto());
+            csvOutput.write(contacto.getEmailContacto());
+            csvOutput.write(contacto.getCelular());
+            csvOutput.write(contacto.getFecha_contacto());
+            csvOutput.write(contacto.getPortal());
+            csvOutput.write(contacto.getCategoria());
+            csvOutput.write(contacto.getSubCategoria());
+            csvOutput.write(contacto.getPais());
+            csvOutput.write(contacto.getDestaque());
+
+            csvOutput.endRecord();
+
+        }
+
+        csvOutput.close();
+
+    }
+
 }

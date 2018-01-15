@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package beans;
 
 /**
@@ -11,10 +10,10 @@ package beans;
  * @author user
  */
 public class ContactabilidadBean {
-    
-    int id_contacto,id_Aviso,id_Fecha;
-    String nombreContacto,emailContacto,celular,fecha_contacto,
-            portal,categoria,subCategoria,pais,destaque;
+
+    int id_contacto, id_Aviso, id_Fecha;
+    String nombreContacto, emailContacto, celular, fecha_contacto,
+            portal, categoria, subCategoria, pais, destaque;
 
     public ContactabilidadBean() {
     }
@@ -26,7 +25,6 @@ public class ContactabilidadBean {
     public void setId_contacto(int id_contacto) {
         this.id_contacto = id_contacto;
     }
-
 
     public int getId_Aviso() {
         return id_Aviso;
@@ -115,11 +113,5 @@ public class ContactabilidadBean {
     public void setDestaque(String destaque) {
         this.destaque = destaque;
     }
-    
-    
-    
-    
-    
-    
-    
+
 }

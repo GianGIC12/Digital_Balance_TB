@@ -23,21 +23,17 @@ public class Contactabilidad_TB {
     public static void main(String[] args) throws SQLException, IOException {
         // TODO code application logic here
         
-        Consultas c= new Consultas();
+        Consultas c = new Consultas();
         
         c.completarContactos();
-        
-        
         
         c.completarContactabilidad();
         
         c.recorrerContactos();
         
-        
-        ExportarCSV e= new ExportarCSV();
+        ExportarCSV e = new ExportarCSV();
         
         e.exportarContactabilidad(c.getContactos());
-        
         
     }
     
